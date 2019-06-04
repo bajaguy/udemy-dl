@@ -17,11 +17,11 @@
 - Cache credentials to a file and use it later for login purpose (option: `--cache`).
 - List down course contents and video resolution, suggest the best resolution (option: `--info`).
 - Download/skip all available subtitles for a video (options: `--sub-only, --skip-sub`).
-- Download spacific chapter in a course (option: `-c / --chapter`).
+- Download specific chapter in a course (option: `-c / --chapter`).
 - Download specific lecture in a chapter (option: `-l / --lecture`).
 - Download chapter(s) by providing range in a course (option: `--chapter-start, --chapter-end`).
 - Download lecture(s) by providing range in a chapter (option: `--lecture-start, --lecture-end`).
-- Download lecture(s) requested resolution (option: `-q / --quality`).
+- Download lecture(s) in requested resolution (option: `-q / --quality`).
 - Download course to user requested path (option: `-o / --output`).
 - Authentication using cookies (option: `-k / --cookies`).
 - Download/save lecture names (option: `--names`).
@@ -61,15 +61,10 @@ experience the problem? All these details will help to fix any potential bugs as
 >
 > Any other information you want to share that is relevant to the issue being reported.
 
-## ***Extracting Cookies / Request Headers***
+## ***How to login with cookie***
 
- - Login to your udemy account via browser.
- - Once you are logged in right click on page the search for option called **Inspect Element** and click on that.
- - Under that look for **Network Tab** and click on that. Under that **Network Tab** click on Requests type **XHR** .
- - Now click on **My Courses** in the Udemy navbar and refresh the page you will see some requests under **Network Tab**.
- - Right click on request links to **udemy.com/api-2.0/**. Simply copy **Request Headers** and save to text file.
- - The above guide is for ***Firefox*** users. ***Chrome*** Users can follow [guide by @lamlephamngoc](https://github.com/r0oth3x49/udemy-dl/issues/303#issuecomment-441345792).
- - Done run the udemy-dl against that text file it will start downloading the course.
+ - ***Firefox*** users : [guide by @01ttouch](https://github.com/r0oth3x49/udemy-dl/issues/389#issuecomment-491903900)
+ - ***Chrome*** users : [guide by @01ttouch](https://github.com/r0oth3x49/udemy-dl/issues/389#issuecomment-492569372)
 
 ## ***Requirements***
 
